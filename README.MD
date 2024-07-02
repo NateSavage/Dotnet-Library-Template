@@ -17,13 +17,13 @@ If you need to target both Unity and Godot, I would currently recommend netstand
 | --------------------- | -------------------- | ---------- | -------------- | -------------- | ------------ | ----- |
 | Unity 4 or earlier    | .NET framework 3.5   | C# 3.5     | Mono           | Unity Build    | Proprietary  | ❌   |
 | Unity 5               | .NET framework 3.5   | C# 3.5     | Mono or IL2CPP | Unity Build    | Proprietary  | ❌   |
-| Unity 2017.1          | .NET framework 4.x   | C# 6.0     | Mono or IL2CPP | Unity Build    | Proprietary  | ❌   |
-| Unity 2018.1          | netstandard 2.0      | C# 7.3     | Mono or IL2CPP | Unity Build    | Proprietary  | ❌   |         
+| Unity 2017.1          | .NET framework 4.x   | C# 6.0     | Mono or IL2CPP | Unity Build    | Proprietary  | 🟨   |
+| Unity 2018.1          | netstandard 2.0      | C# 7.3     | Mono or IL2CPP | Unity Build    | Proprietary  | 🟨   |         
 | Unity 2021.2          | netstandard 2.1      | C# 9.0*    | Mono or IL2CPP | Unity Build    | Roslyn       | 🟨   |
 | Unity 6               | netstandard 2.1      | C# 9.0*    | Mono or IL2CPP | Unity Build    | Roslyn       | 🟨   |
 | Godot 3.x             | .NET framework 4.7.2 | C# 7.3     | Mono           | MSBuild        | Roslyn       | 🟨   |
 | Godot 4.x Default     | .NET 6               | C# 10      | CoreCLR        | MSBuild        | Roslyn       | ✅   |
-| Godot 4.x Web         | Unsupported ❌      | ❌         | ❌            | ❌             | ❌          | ❌   |
+| Godot 4.x Web         | Unsupported ❌       | ❌         | ❌            | ❌             | ❌          | ❌   |
 | Godot 4.x Android Min | .NET 7               | C# 11      | CoreCLR        | MSBuild        | Roslyn       | ✅   |
 | Godot 4.x IOS Min     | .NET 8               | C# 12      | CoreCLR        | MSBuild        | Roslyn       | ✅   |
 | Godot 4.x Max         | .NET 8               | C# 12      | CoreCLR        | MSBuild        | Roslyn       | ✅   |
