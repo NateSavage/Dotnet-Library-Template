@@ -28,6 +28,6 @@ If you need to target both Unity and Godot, I would currently recommend netstand
 | Godot 4.x IOS Min     | .NET 8               | C# 12      | CoreCLR        | MSBuild        | Roslyn       | ✅   |
 | Godot 4.x Max         | .NET 8               | C# 12      | CoreCLR        | MSBuild        | Roslyn       | ✅   |
 
-* [Unity does not support all features of C# 9](https://docs.unity3d.com/2021.2/Documentation/Manual/CSharpCompiler.html), It does fully support up through C# 8 in versions marked with *.
-🟨 instructions for adding nuget packages to a Unity project can be found [here](https://learn.microsoft.com/en-us/visualstudio/gamedev/unity/unity-scripting-upgrade#add-packages-from-nuget-to-a-unity-project)
-🟨 nuget package support in Godot 3.x was a little rough, expect to need to clear your build cache and restart the MSBuild server occaisionally
+- *[Unity does not support all features of C# 9](https://docs.unity3d.com/2021.2/Documentation/Manual/CSharpCompiler.html), It does fully support up through C# 8 in versions marked with *.
+- 🟨 instructions for adding nuget packages to a Unity project can be found [here](https://learn.microsoft.com/en-us/visualstudio/gamedev/unity/unity-scripting-upgrade#add-packages-from-nuget-to-a-unity-project)
+- 🟨 nuget package support in Godot 3.x was a little rough, expect to need to clear your build cache and restart the MSBuild server occaisionally
