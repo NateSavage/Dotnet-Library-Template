@@ -35,6 +35,38 @@
 
 ##### Git-LFS Includes
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Project Specific
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Code Binaries
+## Dynamically Linked Libraries
+*.dll filter=lfs diff=lfs merge=lfs
+*.so filter=lfs diff=lfs merge=lfs
+*.o filter=lfs diff=lfs merge=lfs
+
+## Statically Linked Libraries
+*.lib filter=lfs diff=lfs merge=lfs
+*.a filter=lfs diff=lfs merge=lfs
+
+## Executable Files
+*.exe filter=lfs diff=lfs merge=lfs
+*.bin filter=lfs diff=lfs merge=lfs
+
+## Compressed Files
+*.zip filter=lfs diff=lfs merge=lfs
+*.rar filter=lfs diff=lfs merge=lfs
+*.7z filter=lfs diff=lfs merge=lfs
+*.tar filter=lfs diff=lfs merge=lfs
+*.gz filter=lfs diff=lfs merge=lfs
+*.o filter=lfs diff=lfs merge=lfs
+*.lzo filter=lfs diff=lfs merge=lfs
+*.lz4 filter=lfs diff=lfs merge=lfs
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### 3D Model Interchange Formats
 
 ## Exported Files

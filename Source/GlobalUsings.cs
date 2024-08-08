@@ -1,3 +1,6 @@
+
+// #define MY_LIBRARY_NAME
+
 global using System;
 global using System.Collections.Generic;
 
